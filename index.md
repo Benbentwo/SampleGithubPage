@@ -1,3 +1,15 @@
+<body>
+  <form name="input" method="post" action="https://formspree.io/benjamin.smith@ablevets.com" />
+    <input type="text" name="Title" placeholder="Issue Title" />
+    <textarea name="Description" placeholder="Issue Description"></textarea>
+    <input type="submit" value="Submit" />
+  </form>
+</body>
+
+---
+
+# Basic index.md
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Benbentwo/SampleGithubPage/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
