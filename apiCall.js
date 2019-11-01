@@ -7,7 +7,7 @@ function UserAction() {
     };
     xhttp.open("POST", "https://api.github.com/repos/Benbentwo/SampleGithubPage/issues", true);
     xhttp.setRequestHeader("Content-type", "application/json");
-    var title = document.getElementById('title')
-    var desc = document.getElementById('desc')
+    var title = document.getElementById('title').value
+    var desc = document.getElementById('desc').value
     xhttp.send('{"title": title, "body": desc}');
 }
