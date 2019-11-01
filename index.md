@@ -1,3 +1,6 @@
+<head>
+      <meta http-equiv="Content-Security-Policy" content="default-src 'self' gap:; script-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; object-src *; style-src 'self' data: 'unsafe-inline'; img-src 'self' data:; media-src 'self' data:; font-src 'self' data:; connect-src *">
+</head>
 <body>
   <form name="input" method="post" action="https://api.github.com/repos/Benbentwo/SampleGithubPage/issues" >
     <br>
@@ -10,3 +13,8 @@
     <input type="submit" value="Submit" />
   </form>
 </body>
+
+
+---
+
+https://stackoverflow.com/questions/17766817/refused-to-apply-inline-style-because-it-violates-the-following-content-security
